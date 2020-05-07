@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<parameter name="emailId" value="tester456@gmail.com" />
+		<parameter name="password" value="test@123" />
+		<parameter name="url" value="https://www.google.com" />
+		<classes>
+			<class name="test.Framework.TestLogin"/>
+			<!--  class name="test.Framework.ExtentsReportsClass"-->
+		</classes>
+	</test> 
+</suite> 
